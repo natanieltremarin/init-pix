@@ -1,0 +1,71 @@
+body {
+	background-color: #37b4aa;
+}
+
+main {
+	background-color: rgba( 255, 255, 255, 0.40 );
+	border-radius: 0 100% 100% 0;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	height: 100vh;
+}
+
+.form-control {
+	background-color: rgba( 255, 255, 255, 0.25 );
+}
+
+.form-control:focus {
+	background-color: rgba( 255, 255, 255, 0.25 );
+}
+
+.data-card {
+	z-index: 1000;
+	background: rgba( 255, 255, 255, 0.40 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	margin-top: 150px;
+	padding: 10px 10px 10px 10px;
+	min-height: 355px;
+}
+
+.qr-data {
+	min-height: 355px;
+	z-index: 1000;
+	background: rgba( 255, 255, 255, 0.40 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	margin-top: 150px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.message {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 100;
+	min-width: 300px;
+	transition: all 0.2s;
+}
+
+.message strong {
+	margin-left: 40px;
+}
+
+.message p {
+	margin: 0;
+	margin-left: 40px;
+}
+
+.btn-light {
+	min-width: 100% !important;
+	background: rgba( 255, 255, 255, 0.40 );
+}

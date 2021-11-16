@@ -1,0 +1,19 @@
+{
+    "name": "init-pix/generator",
+    "description": "Gerador Qrcode Pix",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nataniel Tremarin",
+            "email": "nataniel.tremarin@universo.univates.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Initdev\\": "src/"
+        }
+    },
+    "require": {
+        "chillerlan/php-qrcode": "^3.4"
+    }
+}
