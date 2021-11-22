@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <base href="/init-pix/">
 </head>
+
 <body>
     <main>
         <section class="container-fluid">
@@ -47,12 +49,25 @@
                 <?php include 'Parts/Message.php' ?>
             </div>
         </section>
+        <div id="google_translate_element" style="display: none"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'pt',
+                    includedLanguages: 'en,pt,es',
+                    layout: google.translate.TranslateElement.InlineLayout.VERTICAL,
+                    autoDisplay: false
+                }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/message.js"></script>
     <script src="assets/js/request.js"></script>
     <script src="assets/js/pix.js"></script>
 </body>
+
 </html>
