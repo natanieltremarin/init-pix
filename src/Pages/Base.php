@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QrCode Pix Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -16,8 +17,17 @@
     <main>
         <section class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-4 text-center">
+                <div class="col-12 text-center mt-3">
+                    <img src="assets/img/logo_pix_grande.svg" alt="" width="200">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 mt-4">
                     <div class="container data-card">
+                        <p>
+                            <i class="fas fa-user-circle"></i>
+                            Data Acount
+                        </p>
                         <div class="form-group">
                             <input class="form-control" type="text" id="key" maxlength="99" placeholder="Acount Key">
                         </div>
@@ -38,30 +48,31 @@
                         </button>
                     </div>
                 </div>
-                <div class="pix-logo">
-
-                </div>
-                <div class="col-12 col-sm-8">
+                <div class="col-12 col-sm-8 mt-4 mb-4">
                     <div class="container qr-data">
+                        <p class="text-left">
+                            <i class="fas fa-qrcode"></i>
+                            Qrcode
+                        </p>
                         <section id="qrCode"></section>
+                        <hr>
+                        <i class="fab fa-whatsapp pointer"></i>
+                        <i class="fas fa-envelope-square pointer"></i>
                     </div>
                 </div>
+                <div class="col-12">
+                    <p class="dev-by">
+                        Developed by Nataniel Tremarin
+                        <br>
+                        <i class="fab fa-instagram"></i>
+                        @natanieltremarin
+                    </p>
+                </div>  
                 <?php include 'Parts/Message.php' ?>
             </div>
         </section>
-        <div id="google_translate_element" style="display: none"></div>
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({
-                    pageLanguage: 'pt',
-                    includedLanguages: 'en,pt,es',
-                    layout: google.translate.TranslateElement.InlineLayout.VERTICAL,
-                    autoDisplay: false
-                }, 'google_translate_element');
-            }
-        </script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/fontawesome.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
