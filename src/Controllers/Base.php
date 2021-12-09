@@ -34,6 +34,6 @@ abstract class Base
         $html = ob_get_contents();
 
         ob_end_clean();
-        return preg_replace('/\s+/S', ' ', $html);
+        return $html;
     }
 }

@@ -29,19 +29,19 @@
                             Data Acount
                         </p>
                         <div class="form-group">
-                            <input class="form-control" type="text" id="key" maxlength="99" placeholder="Acount Key">
+                            <input class="form-control" type="text" id="key" maxlength="99" placeholder="Chave">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" id="beneficiary_name" maxlength="25" placeholder="Beneficiary's name">
+                            <input class="form-control" type="text" id="beneficiary_name" maxlength="25" placeholder="Nome do Beneficiário">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" id="beneficiary_city" maxlength="15" placeholder="Beneficiary city">
+                            <input class="form-control" type="text" id="beneficiary_city" maxlength="15" placeholder="Cidade do Beneficiário">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="number" id="order_value" min="0.01" step="0.01" placeholder="Value">
+                            <input class="form-control" type="number" id="order_value" min="0.01" step="0.01" placeholder="Valor">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" id="order_identificator" maxlength="50" placeholder="Action identifier">
+                            <input class="form-control" type="text" id="order_identificator" maxlength="50" placeholder="Identificador da ação">
                         </div>
                         <button class="btn btn-light" onclick="pix.getQrCode()">
                             <img src="assets/img/pix.svg" width="30">
@@ -56,8 +56,7 @@
                         </p>
                         <section id="qrCode"></section>
                         <hr>
-                        <i class="fab fa-whatsapp pointer"></i>
-                        <i class="fas fa-envelope-square pointer"></i>
+                        <i class="fab fa-whatsapp pointer" onclick="pix.openWppMessage()"></i>
                     </div>
                 </div>
                 <div class="col-12">

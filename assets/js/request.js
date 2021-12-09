@@ -1,6 +1,6 @@
 var request = {
 
-    ajax: function (url, dados, callback) {
+    post: function (url, dados, callback) {
 
         try {
             if (dados !== null) {
