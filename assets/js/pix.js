@@ -59,7 +59,14 @@ var pix = {
 
     openWppMessage: function () {
         var message = 'Para concluir o pagamento acesse o link e escaneie o QrCode link: ' + this.linkWpp;
-        window.open('https://api.whatsapp.com/send?1=pt_BR&phone=' + window.prompt('Insira o número de telefone para enviar a mesangem!') + '&text=' + encodeURI(message));
+
+        var phone_number = window.prompt('Insira o número de telefone para enviar a mesangem!');
+
+        if (phone_number === null || phone_number === '') {
+            return;
+        }
+
+        window.open('https://api.whatsapp.com/send?1=pt_BR&phone=' + phone_number + '&text=' + encodeURI(message));
     },
 };
 
