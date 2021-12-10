@@ -63,8 +63,10 @@
                     <p class="dev-by">
                         Developed by Nataniel Tremarin
                         <br>
-                        <i class="fab fa-instagram"></i>
-                        @natanieltremarin
+                        <a target="_blank" href="https://www.instagram.com/natanieltremarin" style="text-decoration: none; color: #FFFFFF">
+                            <i class="fab fa-instagram"></i>
+                            @natanieltremarin
+                        </a>
                     </p>
                 </div>  
                 <?php include 'Parts/Message.php' ?>
