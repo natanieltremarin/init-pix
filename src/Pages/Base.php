@@ -62,6 +62,8 @@
                 <?php include 'Parts/Message.php' ?>
             </div>
         </section>
+    </main>
+    <footer>
         <p class="dev-by">
             Developed by Nataniel Tremarin
             <br>
@@ -70,7 +72,7 @@
                 @natanieltremarin
             </a>
         </p> 
-    </main>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/fontawesome.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
