@@ -59,19 +59,17 @@
                         <i class="fab fa-whatsapp pointer" onclick="pix.openWppMessage()"></i>
                     </div>
                 </div>
-                <div class="col-12">
-                    <p class="dev-by">
-                        Developed by Nataniel Tremarin
-                        <br>
-                        <a target="_blank" href="https://www.instagram.com/natanieltremarin" style="text-decoration: none; color: #FFFFFF">
-                            <i class="fab fa-instagram"></i>
-                            @natanieltremarin
-                        </a>
-                    </p>
-                </div>  
                 <?php include 'Parts/Message.php' ?>
             </div>
         </section>
+        <p class="dev-by">
+            Developed by Nataniel Tremarin
+            <br>
+            <a target="_blank" href="https://www.instagram.com/natanieltremarin" style="text-decoration: none; color: #FFFFFF">
+                <i class="fab fa-instagram"></i>
+                @natanieltremarin
+            </a>
+        </p> 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/fontawesome.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
